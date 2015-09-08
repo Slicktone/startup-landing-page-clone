@@ -1,3 +1,10 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+} 
+/* Navigation Section */
 .top-navigation {
 	background-color: #fff;
 	position: fixed;
@@ -15,21 +22,37 @@
 	float: right;
 	color: #838994;
 	font-size: 1.04rem;
-	margin-top: 1.7rem;
+	margin-top: 1.7rem;2   [\x\[tr5=1``]4
+	]
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 0.03em;
+	font-size: 16px;
+	color: #838994;
+	-webkit-font-smoothing: antialiased;
 }
 .top-navigation .links li {
 	display: inline-block;
 	margin-left: 1.563rem;
 }
+.top-navigation .links li.hover {
+	color: #9e2a2f;
+	cursor: pointer;
+}
 .top-navigation .links li.active {
 	color: #4c5058;
 	font-weight: 500;
+}
+.logo {
+height: 70px;
+}
+.introduction {
+	background-image: url("images/first-background.jpg");
+	height: 650px;
+}
+.content {
+	padding: 0px 15px;
 }
 
 ul {
 	list-style: none;
 }
-body {
-	
-}
-div {}
