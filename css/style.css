@@ -1,13 +1,21 @@
-<<<<<<< HEAD
 html {
 	box-sizing: border-box;
 }
+body {
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+.introduction h1, h3 {
+	font-weight: 300;
+	color: white;
+	text-align: center;
+}
+
 *, *:before, *:after {
 	box-sizing: inherit;
 } 
 /* Navigation Section */
-=======
->>>>>>> 2516d54fc1cbd46c6f8aa4503ae31ed4d061597f
+
 .top-navigation {
 	background-color: #fff;
 	position: fixed;
@@ -17,67 +25,66 @@ html {
 	display: block;
 }
 .top-navigation > .content {
-<<<<<<< HEAD
+
 	height: 70px;
 	width: 970px;
 	margin: 0 auto;
-=======
 	height: 4.375rem;
->>>>>>> 2516d54fc1cbd46c6f8aa4503ae31ed4d061597f
+
 }
 .top-navigation .links {
 	float: right;
 	color: #838994;
 	font-size: 1.04rem;
-<<<<<<< HEAD
-	margin-top: 1.7rem;2   [\x\[tr5=1``]4
-	]
+
+	margin-top: 1.7rem;
 	font-family: 'Roboto', sans-serif;
 	letter-spacing: 0.03em;
 	font-size: 16px;
 	color: #838994;
 	-webkit-font-smoothing: antialiased;
-=======
 	margin-top: 1.7rem;
->>>>>>> 2516d54fc1cbd46c6f8aa4503ae31ed4d061597f
+
 }
 .top-navigation .links li {
 	display: inline-block;
 	margin-left: 1.563rem;
 }
-<<<<<<< HEAD
+
 .top-navigation .links li.hover {
 	color: #9e2a2f;
 	cursor: pointer;
 }
-=======
->>>>>>> 2516d54fc1cbd46c6f8aa4503ae31ed4d061597f
 .top-navigation .links li.active {
 	color: #4c5058;
 	font-weight: 500;
 }
-<<<<<<< HEAD
+
 .logo {
 height: 70px;
 }
 .introduction {
-	background-image: url("images/first-background.jpg");
-	height: 650px;
+	background-image: url('..images/first-background.jpg')
+	background-position: 0 bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
 }
 .content {
 	padding: 0px 15px;
+	margin: 0 auto;
+	width: 970px;
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+
 }
-=======
->>>>>>> 2516d54fc1cbd46c6f8aa4503ae31ed4d061597f
+
 
 ul {
 	list-style: none;
 }
-<<<<<<< HEAD
-=======
-body {
-	
-}
-div {}
 
->>>>>>> 2516d54fc1cbd46c6f8aa4503ae31ed4d061597f
+	
+
+
