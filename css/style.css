@@ -96,7 +96,7 @@ background-color: #f15a20;
 cursor: pointer;
 }
 
-.devices {
+.cases .devices {
 	width: 33.3333333%;
 	display: inline-block;
 	border: 1px solid black;
@@ -108,8 +108,7 @@ cursor: pointer;
 
 ul {
 	list-style: none;
-}
-/* 
+} 
 
 	
 
