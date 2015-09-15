@@ -97,19 +97,53 @@ cursor: pointer;
 }
 
 .cases .devices {
-	width: 33.3333333%;
-	display: inline-block;
+	width: 50%;
+	/*
 	border: 1px solid black;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	height: 4em;
+	*/
+	height: 4rem;
 }
-
+.cases .content {
+	margin-top: 7.875rem;
+	color: #000000;
+	text-align: center;
+}
 ul {
 	list-style: none;
 } 
 
+/*footer styling */
+
+.social {
+    background-color: #fff;
+    text-align: center;
+    padding: 6.375rem;
+}
+.social .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid #000;
+    padding: 0.625rem 0;
+    text-align: center;
+    margin: 1.25rem 0;
+}
+
+.social .twitter {
+    color: #55acee;
+}
+.social .instagram {
+    color: #3f729b;
+}
+.social .facebook {
+    color: #4c66a4;
+}
+.fa {
+    display: inline-block;
+}
 	
 
 
