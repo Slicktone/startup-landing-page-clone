@@ -5,28 +5,23 @@ body {
 	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
-.introduction h1, h3 {
-	font-weight: 300;
-	color: #000;
-	text-align: center;
-}
 
 *, *:before, *:after {
 	box-sizing: inherit;
 } 
+
 /* Navigation Section */
 
 .top-navigation {
 	background-color: #fff;
 	position: fixed;
-	width: 100%;
-	border-bottom: 1px solid #ddd;
+	width: 99%;
 	z-index: 9999;
 	display: block;
+	padding: 1.2rem;
 }
 .top-navigation > .content {
-
-	height: 70px;
+	height: 50px;
 	width: 970px;
 	margin: 0 auto;
 	height: 4.375rem;
@@ -34,14 +29,11 @@ body {
 }
 .top-navigation .links {
 	float: right;
-	color: #838994;
+	color: #000000;
 	font-size: 1.04rem;
-
 	margin-top: 1.7rem;
 	font-family: 'Roboto', sans-serif;
 	letter-spacing: 0.03em;
-	font-size: 16px;
-	color: #838994;
 	-webkit-font-smoothing: antialiased;
 	margin-top: 1.7rem;
 
@@ -65,12 +57,26 @@ height: 70px;
 }
 /* Body Section */
 .introduction {
-	background-image: url("Images/first-background.jpg");
+	background-image: url("../Images/first-background.jpeg");
 	background-position: 0 bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 45.938rem;
+	padding-top: 30rem;
 }
+
+.introduction h1, h3 {
+	font-weight: 300;
+	color: #fff;
+	text-align: center;
+}
+.introduction h1 {
+	font-size: 45px;
+}
+.introduction h3 {
+	font-size: 30px;
+}
+	
 .content {
 	padding: 0px 15px;
 	margin: 0 auto;
@@ -92,7 +98,7 @@ height: 70px;
 }
 
 .big-button:hover {
-background-color: #f15a20;
+background-color: #ccc;
 cursor: pointer;
 }
 
